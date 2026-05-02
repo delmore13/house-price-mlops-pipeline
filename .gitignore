@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+data/raw/*.csv
+data/processed/*.csv
+
+models/*.joblib
+reports/*.json
+
+mlruns/
+.mlflow/
+
+.DS_Store
+.ipynb_checkpoints/
+mlflow.db
