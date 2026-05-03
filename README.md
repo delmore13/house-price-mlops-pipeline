@@ -8,6 +8,15 @@ This project uses the California Housing dataset to predict median house value b
 
 ---
 
+
+## Project Screenshot
+
+![FastAPI Docs](assets/screenshots/fastapi-docs.png)
+
+---
+
+
+
 ## Project Highlights
 
 - End-to-end machine learning pipeline
