@@ -120,6 +120,25 @@ Example output:
 
 The predicted value is in the California Housing dataset scale, where values are measured in hundreds of thousands of dollars.
 
+## Model Comparison
+
+This project compares multiple regression models to evaluate which algorithm performs best for California housing price prediction.
+
+| Model | MAE | RMSE | R² |
+|---|---:|---:|---:|
+| Random Forest | 0.3275 | 0.5053 | 0.8051 |
+| Gradient Boosting | 0.3716 | 0.5422 | 0.7756 |
+| Linear Regression | 0.5332 | 0.7456 | 0.5758 |
+
+The Random Forest model achieved the strongest overall performance, with the lowest RMSE and highest R² score.
+
+Model comparison results are saved to:
+
+```text
+reports/model_comparison.csv
+```
+
+
 ---
 
 ## Model Evaluation
