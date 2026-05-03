@@ -24,6 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run ML pipeline
+        run: |
+          python src/ingest_data.py
+          python src/preprocess.py
+          python src/train.py
+
       - name: Run tests
         run: |
           python -m pytest
