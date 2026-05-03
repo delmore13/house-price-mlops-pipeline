@@ -1,3 +1,5 @@
+![CI](https://github.com/delmore13/house-price-mlops-pipeline/actions/workflows/ci.yml/badge.svg)
+
 # House Price MLOps Pipeline
 
 A production-style machine learning project that trains, evaluates, tracks, tests, and serves a house price prediction model using a reproducible MLOps workflow.
