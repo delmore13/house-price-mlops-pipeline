@@ -29,6 +29,8 @@ This project uses the California Housing dataset to predict median house value b
 - FastAPI prediction service
 - Automated tests with pytest
 - Docker-ready API deployment structure
+- Model comparison across Linear Regression, Random Forest, and Gradient Boosting
+- Streamlit prediction dashboard
 
 ---
 
@@ -174,6 +176,28 @@ http://127.0.0.1:5000
 ```
 
 ---
+
+
+## Streamlit Prediction Dashboard
+
+This project includes a lightweight Streamlit dashboard for interactive house price predictions.
+
+Run the dashboard:
+
+```bash
+python -m streamlit run dashboard/app.py
+```
+
+Then open:
+
+```text
+http://localhost:8501
+```
+
+The dashboard allows users to enter housing features and receive a predicted median house value from the trained model.
+
+---
+
 
 ## FastAPI Prediction Service
 
